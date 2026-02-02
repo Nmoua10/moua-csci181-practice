@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+NZ+Basic+Guides&display=swap");
+
+html {
+  font-size: 16px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  color: #333333;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-family: "Work Sans", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: aliceblue;
+  font-family: Poppins, "Work Sans", Helvetica, Arial, sans-serif;
+  text-wrap: balance;
+}
+
+h1 {
+  font-size: 2.36875rem;
+  font-weight: 400;
+  line-height: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 1.77688rem;
+  font-weight: 500;
+  line-height: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+h3 {
+  font-size: 1.33313rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.25rem;
+  text-transform: uppercase;
+}
+
+p {
+  text-wrap: wrap;
+}
+
+a {
+  color: blue;
+  font-weight: 500;
+}
+
+button {
+  padding: 0.75rem 1rem;
+  background-color: azure;
+  color: blue;
+  border-radius: 0.75rem;
+  border: none;
+  font-weight: 500;
+}
+
+#hero {
+  background-image: url("../image/download.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.display-text {
+  font-family: "Bebas Neue", "Work Sans", Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+section.page-section {
+  padding: 1.5rem;
+  border-radius: 1rem;
+  border: 1px solid #e0e0e0;
+  margin: 0 auto 1rem auto;
+  width: 100%;
+  max-width: 1920px;
+}
+
+#page-header {
+  padding: 1rem 1.5rem;
+}
+#page-header .logo {
+  color: bisque;
+  font-family: Poppins, "Work Sans", Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  font-size: 1.3333rem;
+}
