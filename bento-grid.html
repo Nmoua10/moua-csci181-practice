@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Document</title>
+    <style>
+      .page-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+      }
+
+      .bento-grid {
+        width: 900px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-auto-rows: 200px;
+        gap: 20px;
+      }
+      .grid-item {
+        border-radius: 16px;
+        overflow: hidden;
+      }
+      .grid-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+      }
+      .span-col-2 {
+        grid-column: span 2;
+      }
+      .span-row-2 {
+        grid-row: span 2;
+      }
+      .span-row-3 {
+        grid-row: span 3;
+      }
+      .grid-item.center-tile {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        background: green;
+      }
+      .grid-item.center-tile img {
+        width: 300px;
+        height: auto;
+      }
+      .grid-item.center-tile h1 {
+        color: white;
+        font-size: 40px;
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="page-wrapper">
+      <section class="bento-grid">
+        <div class="grid-item span-col-2 span-row-3">
+          <img src="image/travel3.jpg" />
+        </div>
+        <div class="grid-item span-col-2">
+          <img src="image/travel1.JPG" />
+        </div>
+        <div class="grid-item span-col-2 center-tile">
+          <img src="image/airplanelogo.jpg" />
+          <h1>Travels</h1>
+        </div>
+        <div class="grid-item">
+          <img src="image/travel5.jpg" />
+        </div>
+        <div class="grid-item center-tile">
+          <img src="image/travel2.JPG" />
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
