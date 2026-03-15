@@ -116,11 +116,23 @@
 
   #page-header {
     padding: 1rem 1.5rem;
-
     position: sticky;
     top: 0;
     background: #edf0f2;
     z-index: 1000;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #main-nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
   }
 
   main {
