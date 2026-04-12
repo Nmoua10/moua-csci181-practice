@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Missoula Weather</title>
+
+    <link rel="stylesheet" href="./styles/style.css" />
+
+    <style>
+      main {
+        align-items: center;
+        text-align: center;
+      }
+
+      h2 {
+        font-size: 4rem;
+        margin: 0;
+      }
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
+
+      main {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+
+      h2 {
+        font-size: 4rem;
+        margin: 0;
+      }
+
+      p {
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav id="main-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="bento-grid.html">Bento</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="weather.html">Weather</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h1>Missoula Weather</h1>
+      <div id="weather-output"></div>
+    </main>
+
+    <script src="scripts/weather.js"></script>
+  </body>
+</html>
