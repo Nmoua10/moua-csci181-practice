@@ -247,4 +247,20 @@
     color: var(--text);
     transition: 0.3s;
   }
+
+  .nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: center;
+  }
+
+  .nav a:hover {
+    text-decoration: underline;
+  }
 }
